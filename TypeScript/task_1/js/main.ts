@@ -40,3 +40,27 @@ const printTeacher: printTeacherFunction = (firstName, lastName) => {
 };
 
 console.log(printTeacher("John", "Doe"))
+
+interface StudentClassConstructor {
+	new(firstName: string, lastName: string): StudentClassInterface;
+}
+
+interface StudentClassInterface {
+	workOnHomework(): string;
+	displayName(): string;
+}
+
+class StudentClass implements StudentClassInterface {
+	constructor(public firstName: string, public lastName: string) {
+	// implementer la visibilité dans le constructor permet d'englober,
+	// l'encapsulation et la déclaration des paramètres.
+	}
+
+	workOnHomework(): string {
+		return 'Currently working';
+	}
+
+	displayName(): string {
+		return this.firstName;
+	}
+}
