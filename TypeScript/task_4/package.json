@@ -6,7 +6,7 @@
   "mode": "development",
   "scripts": {
     "start-dev": "webpack-dev-server",
-    "build": "webpack",
+    "build": "tsc --module none --skipLibCheck --outFile ./dist/bundle.js ./js/subjects/Teacher.ts ./js/subjects/Subject.ts ./js/subjects/Cpp.ts ./js/subjects/React.ts ./js/subjects/Java.ts ./js/main.ts",
     "test": "jest"
   },
   "keywords": [],
