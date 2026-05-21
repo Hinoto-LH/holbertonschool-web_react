@@ -256,6 +256,19 @@ a une fonction, meme si les deux sont techniquement des chaines de caracteres.
 
 ---
 
+## Taches du projet
+
+| Tache | Fichiers | Concepts abordes |
+|-------|----------|------------------|
+| task_0 | `js/main.ts` | Interface Student, tableau, rendu DOM |
+| task_1 | `js/main.ts` | Readonly, optionnel, index signature, extends, type predicate de fonction, classe |
+| task_2 | `js/main.ts` | Implements, union type, type predicate, string literal type |
+| task_3 | `js/interface.ts`, `js/crud.d.ts`, `js/main.ts` | Type alias, fichier ambient `.d.ts`, triple slash directive |
+| task_4 | `js/subjects/*.ts` | Namespaces, declaration merging, compilation avec tsc |
+| task_5 | `js/main.ts` | Branded types, typage nominal |
+
+---
+
 ## Auteur
 
 **Hinoto-LH** -- Formation Holberton School
